@@ -24,6 +24,8 @@ This describes the best practice of a data processing pipeline that uses Apache 
 
 ## Dataflow
 
+![Alt text](images/data_flow.png)
+
 ## Alternative approaches:
 
 - **spark-redshift package**: This workflow can also be done by using the spark-redshift package to load data that is being processed by Spark directly to Redshift without the needs of putting the data manually to S3 bucket. But behind the scence, this package will also put the data to a temp S3 bucket and then execute the COPY command to Redshift -> basically the same but manually puting objects to S3 has better flexibility and monitoring. 
