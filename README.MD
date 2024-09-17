@@ -1,26 +1,6 @@
 # Project structure
 
-perx_data_engineer_interview/
-│
-├── README.md                     # Project documentation
-│
-├── avro_data/
-│       ├── http_log.avro         # Avro file generated from convert_http_log_to_avro function
-│       ├── http_log.avsc         # File that stores the schema of the http_log avro file
-│
-├── convert_http_log_to_avro.py   # Spark script to convert HTTP logs txt file to Avro format
-├── load_data_to_redshift.py      # Script to load data to Redshift using Spark
-│
-├── sql_scripts.sql               # SQL queries to answer analytics questions using Redshift
-│
-└── data/
-    ├── campaign_reward_mapping.csv   
-    ├── campaign.csv 
-    ├── http_log.txt
-    ├── reward_campaign.csv
-    ├── reward_transaction.csv
-    ├── README.MD                  
-
+![Alt text](images/project_structure.png)
 
 # Load data to Redshift
 
