@@ -69,7 +69,7 @@ BEGIN
      FROM 
          reward_transaction rt
      JOIN 
-         reward_campaign rc ON rt.reward_campaign_id = rc.id
+         reward_campaign rc ON rt.reward_campaigns_id = rc.id
      JOIN 
          campaign c ON rc.campaign_id = c.id
      WHERE 
@@ -107,7 +107,7 @@ WITH weekly_performance AS (
     FROM
         reward_transaction rt
     JOIN
-        reward_campaign rc ON rt.reward_campaign_id = rc.id
+        reward_campaign rc ON rt.reward_campaigns_id = rc.id
     WHERE 
         rt.status = 'redeemed' 
     GROUP BY

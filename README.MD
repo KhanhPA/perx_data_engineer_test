@@ -2,6 +2,7 @@
 
 ![Alt text](images/project_structure.png)
 
+* Query results are captured in the images folder
 # Load data to Redshift
 
 ## Introduction
