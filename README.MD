@@ -11,7 +11,7 @@ This describes the best practice of a data processing pipeline that uses Apache 
 ## Prerequisites
 
 - **Tools and Services**:
-  - Apache Spark (version X.X)
+  - Apache Spark
   - Amazon S3
   - Amazon Redshift
   - AWS CLI
